@@ -12,6 +12,7 @@ public abstract class Car {
 
     public void move() {
 
+        //이동할 때마다 누적 거리를 계산
         System.out.println(carName);
         totalDistance = totalDistance + 1;
     }
