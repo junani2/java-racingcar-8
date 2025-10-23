@@ -17,6 +17,11 @@ public abstract class Car {
         totalDistance = totalDistance + 1;
     }
 
+    public String getCarName() {
+
+        return carName;
+    }
+
     public int getTotalDistance() {
 
         return totalDistance;

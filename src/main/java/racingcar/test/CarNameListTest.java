@@ -2,9 +2,7 @@ package racingcar.test;
 
 import org.junit.jupiter.api.Test;
 import racingcar.CarNameList;
-import racingcar.InputView;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
