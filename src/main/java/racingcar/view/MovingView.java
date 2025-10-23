@@ -4,9 +4,9 @@ import racingcar.RacingMember;
 
 public class MovingView {
 
-    public void movingOutput(RacingMember racingMember, int totalDistance) {
-        System.out.println(racingMember);
+    public void movingOutput(RacingMember racingMember) {
 
+        System.out.println(racingMember.getCarName() + " : " + "-".repeat(racingMember.getTotalDistance()));
     }
 
 }
