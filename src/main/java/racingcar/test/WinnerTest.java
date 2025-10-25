@@ -16,4 +16,4 @@ public class WinnerTest {
         RacingGame racingGame = new RacingGame();
         racingGame.run();
     }
-    }
+}
