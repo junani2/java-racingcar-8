@@ -24,7 +24,7 @@ public class CarMovingTest {
         );
         for (int i = 0; i < 3;i++){
             CarMovingCount.carMove(racingMembers);
-            MovingView.movingOutput(racingMembers);
+            MovingView.output(racingMembers);
         }
 
     }

@@ -1,5 +1,7 @@
 package racingcar;
 
+import racingcar.view.OutputView;
+
 import java.util.List;
 
 public class Winner {
@@ -18,6 +20,5 @@ public class Winner {
                 .map(RacingMember::getCarName)
                 .toList();
 
-        System.out.println(String.join(", ", winners));
     }
 }
