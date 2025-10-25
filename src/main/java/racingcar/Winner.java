@@ -20,5 +20,6 @@ public class Winner {
                 .map(RacingMember::getCarName)
                 .toList();
 
+       OutputView.result(winners);
     }
 }
