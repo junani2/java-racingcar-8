@@ -1,6 +1,7 @@
 package racingcar;
 
 import racingcar.view.InputView;
+import racingcar.view.MovingView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,21 +19,19 @@ public class RacingGame {
         List<String> carNameList = CarNameList.splitAndConvertToList(carName);
 
         //리스트에 담긴 값들로 객체 생성하기 + 객체 리스트 만들기
-        List<Car> racingMembers = new ArrayList<>();
+        List<RacingMember> racingMembers = new ArrayList<>();
         for (String name : carNameList) {
-            Car c = new RacingMember(name);
+            RacingMember c = new RacingMember(name);
             racingMembers.add(c);
         }
 
-        //각 객체들 랜덤 넘버 기반으로 움직이기 (
+        //각 객체들 랜덤 넘버 기반으로 움직이기
+        for (int i = 0; i < inputView.inputCount(); i++) {
+            CarMovingCount.carMove(racingMembers);
+            MovingView.movingOutput(racingMembers);
+        }
 
-
-
-
-
-
-
-
+        //
 
 
 

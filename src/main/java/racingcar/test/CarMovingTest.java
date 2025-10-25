@@ -10,6 +10,8 @@ public class CarMovingTest {
 
     @Test
     void carMovingTest() {
+
+        //여러번 값을 돌려서 확인해보기
         Car c = new RacingMember("blue");
         assertEquals(0, c.getTotalDistance(), "처음 Distance는 0이어야 합니다");
         c.move();
