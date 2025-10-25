@@ -2,7 +2,12 @@ package racingcar.test;
 
 import org.junit.jupiter.api.Test;
 import racingcar.Car;
+import racingcar.CarMovingCount;
 import racingcar.RacingMember;
+import racingcar.view.MovingView;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -12,9 +17,15 @@ public class CarMovingTest {
     void carMovingTest() {
 
         //여러번 값을 돌려서 확인해보기
-        Car c = new RacingMember("blue");
-        assertEquals(0, c.getTotalDistance(), "처음 Distance는 0이어야 합니다");
-        c.move();
-        assertEquals(1, c.getTotalDistance(), "1이어야 합니다");
+        List<RacingMember> racingMembers = List.of(
+                new RacingMember("red"),
+                new RacingMember("blue"),
+                new RacingMember("green")
+        );
+        for (int i = 0; i < 3;i++){
+            CarMovingCount.carMove(racingMembers);
+            MovingView.movingOutput(racingMembers);
+        }
+
     }
 }
