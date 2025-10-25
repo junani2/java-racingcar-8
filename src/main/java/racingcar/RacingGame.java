@@ -26,14 +26,12 @@ public class RacingGame {
         }
 
         //각 객체들 랜덤 넘버 기반으로 움직이기
-        for (int i = 0; i < inputView.inputCount(); i++) {
+        for (int i = 0; i < count; i++) {
             CarMovingCount.carMove(racingMembers);
             MovingView.movingOutput(racingMembers);
         }
 
-        //
-
-
-
+        //우승자 구하기
+        Winner.find(racingMembers);
     }
 }

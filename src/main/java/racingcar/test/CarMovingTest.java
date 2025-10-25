@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class CarMovingTest {
 
     @Test
-    void carMovingTest() {
+    void 자동차_동작_테스트() {
 
         //여러번 값을 돌려서 확인해보기
         List<RacingMember> racingMembers = List.of(
