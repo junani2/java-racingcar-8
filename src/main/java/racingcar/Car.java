@@ -29,8 +29,4 @@ public abstract class Car {
         return totalDistance;
     }
 
-    public void stop() {
-
-        //정의할 필요가 있나?
-    }
 }

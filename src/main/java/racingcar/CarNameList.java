@@ -11,6 +11,7 @@ public class CarNameList {
         //입력받은 문자열을 ',' 기준으로 분리 후 리스트에 담기
         List<String> carName = new ArrayList<>(Arrays.asList(memberString.split(",")));
 
+        //길이가 5보다 작으면 에러
         for (String name : carName) {
             if (name.length() > 5) {
                 throw new IllegalArgumentException();
