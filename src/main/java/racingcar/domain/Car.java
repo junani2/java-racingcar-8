@@ -1,4 +1,6 @@
-package racingcar;
+package racingcar.domain;
+
+import racingcar.util.RandomNumberPicking;
 
 public abstract class Car {
 

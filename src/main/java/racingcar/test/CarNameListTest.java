@@ -1,7 +1,7 @@
 package racingcar.test;
 
 import org.junit.jupiter.api.Test;
-import racingcar.CarNameList;
+import racingcar.util.CarNameList;
 
 import java.util.Arrays;
 import java.util.List;

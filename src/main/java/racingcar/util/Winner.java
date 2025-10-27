@@ -1,5 +1,6 @@
-package racingcar;
+package racingcar.util;
 
+import racingcar.domain.RacingMember;
 import racingcar.view.OutputView;
 
 import java.util.List;

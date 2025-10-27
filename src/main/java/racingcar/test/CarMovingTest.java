@@ -1,12 +1,10 @@
 package racingcar.test;
 
 import org.junit.jupiter.api.Test;
-import racingcar.Car;
-import racingcar.CarMovingCount;
-import racingcar.RacingMember;
+import racingcar.util.CarMovingCount;
+import racingcar.domain.RacingMember;
 import racingcar.view.MovingView;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

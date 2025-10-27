@@ -1,5 +1,9 @@
 package racingcar;
 
+import racingcar.domain.RacingMember;
+import racingcar.util.CarMovingCount;
+import racingcar.util.CarNameList;
+import racingcar.util.Winner;
 import racingcar.view.InputView;
 import racingcar.view.MovingView;
 

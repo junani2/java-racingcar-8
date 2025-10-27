@@ -1,7 +1,7 @@
 package racingcar.test;
 
 import org.junit.jupiter.api.Test;
-import racingcar.RacingMember;
+import racingcar.domain.RacingMember;
 
 import static org.junit.jupiter.api.Assertions.*;
 
